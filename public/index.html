@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Web RTC</title>
+</head>
+<body>
+    <h1>Video Conference</h1>
+    <div id="selectRoom">
+        <label>Room number</label>
+        <input id="roomNumber" type="text"/>
+        <button id="goRoom">Go</button>
+    </div>
+    <div id="consultingRoom" style="display:none">
+        <video id="localVideo" autoplay></video>
+        <video id="remoteVideo" autoplay></video>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+    <script src="bundle.js"></script>
+</body>
+</html>
