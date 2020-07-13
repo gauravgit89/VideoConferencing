@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'mishcon'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9e2d034ea30f467baa75c94dc6baaa11 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_503093456ab54a98a893bf062aae49db }}
         package: .
